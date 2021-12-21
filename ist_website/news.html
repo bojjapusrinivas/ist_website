@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="ArcGIS Utility Network,GIS,GEOAI,Geo analytics,Location Intelligence,Arcgis enterprise,
+Esri,Geospatial,ArcFM,Asset Management,Geodatabase,ArcMap,Geometric,ArcGIS Pro,Web App Builder">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>iSpatial Techno Solutions: News</title>
+    <meta name="google-site-verification" content="kzWcC3dkkyOACKLTOGJtHGdE8WD-z6jwdC7vCz_iOso" />
+    <meta name="Keywords" content="Website keyword" />
+    <meta name="Description" content="iSpatialTecbuilds location intelligence (Web & Mobile GIS) solutions integrating transformative technologies viz., AI, Deep Learning, AR/VR, 3D, IoT, and Big Data Analytics" />
+    <meta name="copyright" content="IspatialTec" />
+    <meta name="author" content="IspatialTec" />
+    <!-- Fav icon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- css Links-->
+    <!-- css Links-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/ist_styles.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/owl.theme.green.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+    <!--link href="css/pagepiling.css" rel="stylesheet"-->
+    <!-- fonts Links--->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700|Poppins:300,300i,400,400i,500,600,700&display=swap" rel="stylesheet">
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12423112-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <style>
+        .modal-dialog {
+            max-width: 70%;
+            margin: 120px auto;
+            z-index: 100000;
+        }
+
+        @media (max-width: 576px) {
+            .modal-dialog {
+                max-width: 100%;
+                margin: 100px auto;
+            }
+        }
+
+        .modal-body {
+            position: relative;
+            padding: 0px;
+        }
+
+        .close {
+            position: absolute;
+            right: -30px;
+            top: 0;
+            z-index: 999;
+            font-size: 2rem;
+            font-weight: normal;
+            color: #fff;
+            opacity: 1;
+        }
+
+        .video-btn,
+        .view_catalog {
+            width: 200px;
+            height: auto;
+            border: 0px;
+            background: none;
+        }
+
+    </style>
+    <style>
+        .news_block .carousel-item {
+            height: 100% !important;
+        }
+
+        .news_block .carousel-item .content {
+            position: relative !important;
+            background: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .news_block .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .news_pan .carousel-indicators {
+            display: inline-block;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            position: static;
+            direction: rtl;
+        }
+
+        @media screen and (max-width:992px) {
+            .carousel-indicators {
+                display: inline-flex;
+                direction: inherit;
+                height: auto;
+                width: 100%;
+                max-width: 800px;
+                overflow-x: auto;
+                position: relative;
+                margin-left: 0;
+                margin-right: 0;
+                overflow-y: hidden;
+                justify-content: normal;
+                margin-bottom: 20px;
+            }
+
+            .carousel-inner {
+                margin-left: 0 !important;
+            }
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        .item {
+            float: left;
+        }
+
+        .item.active img {
+            border: 1px solid red;
+            opacity: 1;
+        }
+
+        .item img {
+            border: 1px solid transparent;
+            opacity: 1;
+            transition: 0.5s;
+        }
+
+        .item:hover img {
+            border: 1px solid red;
+            opacity: 1;
+        }
+
+        .content {
+            position: relative;
+            background: rgba(0, 0, 0, 0.5);
+            /* Black background with transparency */
+            width: 100%;
+            padding: 10px;
+        }
+
+        /*   @media screen and (max-width: 992px) {
+            .content {
+                position: static;
+            }
+        }
+        @media screen and (min-width: 1440px) {
+            .news_block.carousel-inner {
+                margin-left: 0px;
+            }
+        }
+        @media screen and (min-width: 1200px) and (max-width: 1439px) {
+            .news_block.carousel-inner {
+                margin-left: 0px;
+            }
+        }
+        @media screen and (min-width: 880px) and (max-width: 1199px) {
+            .carousel-inner {
+                margin-left: 20px;
+            }
+            .content {
+                position: static;
+            }
+        }*/
+        @media screen and (max-width: 576px) {
+            .news_block .carousel-item {
+                height: 500px !important
+            }
+
+            .content {
+                position: static;
+            }
+        }
+
+        .vert .carousel-item-next.carousel-item-left,
+        .vert .carousel-item-prev.carousel-item-right {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .vert .carousel-item-next,
+        .vert .active.carousel-item-right {
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+        }
+
+        .vert .carousel-item-prev,
+        .vert .active.carousel-item-left {
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div style="overflow-x: hidden; width: 100%">
+        <!---BEGIN:NAV BAR Done--->
+        <nav class="navbar navbar-expand-lg ist-nav my-0 py-0 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" title="iSpatial Technology" alt="iSpatial Technology"><img src="img/ist_logo_footer.png" class="ist_logo" /></a>
+                <button class="navbar-toggler ist_nav_toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa  fa-align-justify"></i></span>
+                </button>
+                <div class="collapse navbar-collapse ist_navbar_collapse" id="navbarsExample03">
+                    <ul class="navbar-nav ml-auto ist_navbar_nav">
+                        <li class="nav-item active ">
+                            <a class="nav-link ist-nav-link py-2   " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ist-nav-link py-2 " href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                            <div class="dropdown-menu ist_dropdown" aria-labelledby="dropdown03">
+                                <a class="dropdown-item" href="geo.html">Geospatial Solutions</a>
+                                <a class="dropdown-item" href="webapp.html">Web Application Services</a>
+                                <a class="dropdown-item" href="mobapp.html">Mobile Application Services</a>
+                                <a class="dropdown-item" href="appintel.html">Application Integration Services</a>
+
+                                <a class="dropdown-item" href="Artificial_Intelligence_Solutions.html"> Artificial Intelligence Solutions</a>
+                                <a class="dropdown-item" href="robotic.html">Robotic Services</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ist-nav-link  py-2  " href="product.html">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ist-nav-link py-2 ist_active" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Highlights</a>
+                            <div class="dropdown-menu ist_dropdown" aria-labelledby="dropdown03">
+                                <a class="dropdown-item" href="event.html">Events</a>
+                                <a class="dropdown-item" href="news.html">News</a>
+                                <a class="dropdown-item" href="videos.html">Video</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ist-nav-link py-2 " href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Study</a>
+                            <div class="dropdown-menu ist_dropdown" aria-labelledby="dropdown03">
+                                <a class="dropdown-item" href="energy.html">Energy & Utilities</a>
+                                <a class="dropdown-item" href="smartcity.html">Smart City & Local Government</a>
+                                <a class="dropdown-item" href="arc.html">Architecture Engineering Construction</a>
+                                <a class="dropdown-item" href="transport.html">Transportation</a>
+                                <a class="dropdown-item" href="media.html">Media & Entertainment </a>
+                                <a class="dropdown-item" href="oil.html">Oil & Gas</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  ist-nav-link py-2  " href="careers.html">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  ist-nav-link py-2 " href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item social">
+                            <ul class="d-flex social_list">
+                                <li><a href="https://www.linkedin.com/company/innovative-spatial-techno-solution-limited" target="_blank"><i class="fa  fa-linkedin"></i></a></li>
+                                <li><a href="https://twitter.com/ispatialtec" target="_blank"><i class="fa  fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/ispatialtec/" target="_blank"><i class="fa  fa-facebook"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!---END:NAV BAR--->
+        <!--BEGIN: PAGE INNER BANNER-->
+        <section id="inner_banner" class="ist_relative my-0 news">
+            <!--img src="img/page_banner/case.png" class="img-fluid"/-->
+        </section>
+        <!--End: PAGE BANNER-->
+        <!---Begin:Over View Done--->
+        <section class="section-py ist_relative dimond-bg-both">
+            <h1 class="large_title about fadeIn">NEWS </h1>
+            <div class="container-fluid pt-2">
+                <!---Begin:Two Column--->
+                <div class="row">
+                    <div class="col-lg-11 col-md-12 mx-auto">
+                        <div class="shadow-lg bg_white p-2 p-md-5">
+                            <div id="demo" class="carousel slide vert" data-ride="carousel" data-interval="60000">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 p-4 news_pan">
+                                        <div class=" px-0  px-lg-5 m-0 row">
+
+                                            <div data-target="#demo" data-slide-to="0" class="item active col-lg-6 col-3 p-2 my-2 shadow-sm border">
+                                                <img alt="events" src="img/Highlights/Thumbniles/News_Thumb_14.jpg" title="esri_achivement" alt="esri_achivement" class="img-fluid">
+                                            </div>
+
+
+                                            <div data-target="#demo" data-slide-to="1" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border">
+                                                <img alt="events" src="img/Highlights/Thumbniles/News_Thumb_13.jpg" title="esri_achivement" alt="esri_achivement" class="img-fluid">
+                                            </div>
+
+                                            <div data-target="#demo" data-slide-to="2" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border">
+                                                <img src="img/Highlights/Thumbniles/News_Thumb_12.jpg" title="GeoInnovation" alt="GeoInnovation" class="img-fluid">
+                                            </div>
+
+                                            <div data-target="#demo" data-slide-to="3" class="item col-lg-6 col-3 p-2 my-2 shadow-sm border">
+
+                                                <img src="img/Highlights/Thumbniles/News_Thumb_01.jpg" title="3D_Maps" alt="3D_Maps" class="img-fluid"></div>
+
+                                            <div data-target="#demo" data-slide-to="4" class="item  col-lg-6 col-3 p-2 my-2  shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_02.jpg" title=" iSpatialTec Awards" alt=" iSpatialTec Awards" class="img-fluid"></div>
+
+
+                                            <div data-target="#demo" data-slide-to="5" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_09.jpg" title="iSpatialTec Annual Gathering_2018" alt="iSpatialTec Annual Meet" class="img-fluid"></div>
+
+
+                                            <div data-target="#demo" data-slide-to="6" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_03.jpg" title="BrAeIn" alt="BrAeIn" class="img-fluid"></div>
+
+                                            <div data-target="#demo" data-slide-to="7" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_04.jpg" title="ESRI Maps" alt="ESRI Maps" class="img-fluid"></div>
+
+                                            <div data-target="#demo" data-slide-to="8" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_05.jpg" title="Health Wellness Camp" class="img-fluid"></div>
+
+                                            <div data-target="#demo" data-slide-to="9" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_06.jpg" title="Major Irrigation Initiatives" alt="Major Irrigation Initiatives" class="img-fluid"></div>
+
+                                            <div data-target="#demo" data-slide-to="10" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_07.jpg" title="Masdar City Abu Dhabi" alt="Masdar City Abu Dhabi" class="img-fluid"></div>
+
+                                            <div data-target="#demo" data-slide-to="11" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_08.jpg" title="Special Olympics" alt="Special Olympics" class="img-fluid"></div>
+
+
+                                            <div data-target="#demo" data-slide-to="12" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_10.jpg" title="Heavy_Traffic" alt="Heavy_Traffic" class="img-fluid"></div>
+
+
+                                            <div data-target="#demo" data-slide-to="13" class="item  col-lg-6 col-3 p-2 my-2 shadow-sm border"><img src="img/Highlights/Thumbniles/News_Thumb_11.jpg" title="Fire Safety Awareness" alt="Fire Safety Awareness" class="img-fluid"></div>
+
+
+                                        </div>
+                                    </div><!-- col-sm-4 Indicators -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 p-3 " id="news_pan">
+                                        <div class="carousel-inner news_block">
+
+                                            <div class="carousel-item active  p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Esri ArcGIS Marketplace Provider</h4>
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_01">
+                                                        <div class="item"><img alt="events" src="img/Highlights/News/Esri_ArcGIS _Marketplace_Provider/01.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>iSpatial Techno Solutions is pleased to announce that its custom widgets and solutions are now available in Esri ArcGIS Marketplace. The ArcGIS Marketplace is an online destination for apps, content, solutions, and professional services from Esri’s ecosystem of providers for users to leverage within their organizations.</p>
+
+                                                    <p><a href="https://marketplace.arcgis.com/listing.html">https://marketplace.arcgis.com/listing.html</a></p>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="carousel-item   p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">iSpatial Techno Solutions achieves Esri ArcGIS Online Specialty</h4>
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_01">
+                                                        <div class="item"><img alt="events" src="img/Highlights/News/esri_achivement/01.jpg" /></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>The ArcGIS Online Specialty demonstrates that iSpatialTec team has significant experience in designing, configuring and supporting solutions that utilize ArcGIS Online, helping customers share mapping data and rapidly deliver scalable mapping solutions without investments in IT infrastructure. The ArcGIS Online Specialty designation is for qualified Esri partners who have developed a proven set of valued services and solutions. Specialty Partners help customers succeed- iSpatialTec helps your business implement and optimize ArcGIS Online! </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item   p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">iSpatial Techno Solutions receives Esri GeoInnovation 2019 Award at the GeoSmart India</h4>
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_01">
+                                                        <div class="item"><img src="img/Highlights/News/geo_innovation_2019/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/geo_innovation_2019/02.jpg" /></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>iSpatialTec is proud to receive Esri GeoInnovation award for presenting "BrAeIn" a Geo.ai framework that transforms business data with actionable insights using predictive power of AI and location intelligence leveraging Esri based technology.</p>
+
+                                                    <p>GeoInnovation – An Acceleration Platform for GIS Startupreneurs to showcase the role of Startups in enabling the wider adoption and commercialization of geospatial solutions to solve major problems for Government organizations and commercial enterprises. The program gives selected start-ups a platform to pitch their software products to Esri’s global customers. #EsriIndia #GeoSmartIndia @GeospatialMedia</p>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="carousel-item   p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">3D Maps</h4>
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_01">
+                                                        <div class="item"><img src="img/Highlights/News/3D_maps/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/3D_maps/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/3D_maps/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/3D_maps/04.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/3D_maps/05.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>We are happy to announce that using our Smart Geo Apps 3D Framework, we are delivering value-added solutions to our customers. Smart Geo Apps 3D Framework developed on top of latest ESRI JavaScript 3D API.</p>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="carousel-item  p-3">
+
+                                                <div class="image_carousel">
+                                                    <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">iSpatialTec Awards</h4>
+
+                                                    <div class="owl-carousel owl-theme" id="news_02">
+                                                        <div class="item"><img src="img/Highlights/News/Awards/10.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/04.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/05.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/06.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/07.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/08.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Awards/09.jpg" /></div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="content">
+                                                    <p>You have the creativity and determination to do whatever you can dream. iSpatialTec hope you feel proud today and confident in your ability to rise to your next challenge."</p>
+                                                    <p class="text-right"><i>Congratulations to all the award winners !!!</i></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item  p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Annual Gathering 2018</h4>
+
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_09">
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/04.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/05.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/06.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/07.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/08.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Annual_Gathering_2018/09.jpg" /></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Happy to share another year of successful journey for iSpatialTec, the major force behind this achievement is the collaborative teamwork of our team. Thank you team, our clients and all our well wishers!</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item  p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">BrAeIn</h4>
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_03">
+                                                        <div class="item"><img src="img/Highlights/News/BrAeIn/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/BrAeIn/02.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>iSpatialTec emerges new business intelligence product "BRAEIN" The Science Of Intelligence.</p>
+                                                    <!--p class="text-right"><small><i>Congratulations to all the award winners !!!</i></small></p-->
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  p-3">
+                                                <div class="image_carousel">
+                                                    <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">ESRI Maps Contest 2018</h4>
+                                                    <div class="owl-carousel owl-theme" id="news_04">
+                                                        <div class="item"><img src="img/Highlights/News/ESRI_ Maps_ Contest_2018/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/ESRI_ Maps_ Contest_2018/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/ESRI_ Maps_ Contest_2018/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/ESRI_ Maps_ Contest_2018/04.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>It is an honour privilege to be a part of ESRI India User Conference 2018, Delhi.</p>
+                                                    <ul>
+                                                        <li>Our Senior Management actively demonstrated our Smart Solutions presented our New Product 'BrAeIn' to delegates.</li>
+                                                        <li> We iSpatialTec team submitted “Heavy Traffic vs. Road Accident Hot Spots in the City of Hyderabad” story map and won an apparition in the ESRI India Story Telling with Maps Contest 2018.</li>
+                                                    </ul>
+                                                    <!--p class="text-right"><i>Story Map URL: <a href="https://bit.ly/2Opro8L" target="_blank">https://bit.ly/2Opro8L</a></i></p-->
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Health Wellness Camp</h4>
+
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_05">
+                                                        <div class="item"><img src="img/Highlights/News/Health_Wellness_Camp/01.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Our company’s strength and success depend on our people. They spend many hours of the day together and we want to make sure that our work-place helps them maintain or even improve their health. Good health is a resource that helps us all meet our goals.<br />
+                                                    </p>
+                                                    <!--p class="text-right"><small><i>&nbsp;</i></small></p-->
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  p-3">
+                                                <div class="image_carousel">
+
+                                                    <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Major Irrigation Initiatives</h4>
+                                                    <div class="owl-carousel owl-theme" id="news_06">
+                                                        <div class="item"><img src="img/Highlights/News/Major_Irrigation_Initiatives/01.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Major_Irrigation_Initiatives/02.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Major_Irrigation_Initiatives/03.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Major_Irrigation_Initiatives/04.png" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>iSpatialTec have created a story map on Major Irrigation Initiatives in the States of Andhra Pradesh & Telangana, India. In this ArcGIS-based Story Map, one can identify the Spatial Locations & Command Areas of the Major Irrigation Initiatives taken up over High-resolution Satellite Imagery (HRSI).</p>
+                                                    <p class="text-right"><i>To browse through the ArcGIS Story Map, please follow the link: <a href="https://bit.ly/2AgRiXv" target="_blank">https://bit.ly/2AgRiXv</a></i></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  p-3">
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Masdar City Abu Dhabi</h4>
+
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_07">
+                                                        <div class="item"><img src="img/Highlights/News/Masdar_City_Abu_Dhabi/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Masdar_City_Abu_Dhabi/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Masdar_City_Abu_Dhabi/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Masdar_City_Abu_Dhabi/04.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>iSpatialTec UAE team having an exciting travel experience with the invention of Fully Autonomous Electric Car by Navya at Masdar City, Abu Dhabi. This will be a new invention and creates big changes in the transportation sector.</p>
+                                                    <p class="text-right"><i>
+                                                            Watch the video: <a href="https://youtu.be/ZtHE7Z57SbA" target="_blank">https://youtu.be/ZtHE7Z57SbA</a></i></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  p-3">
+
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Special Olympics World Games 2019</h4>
+
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_08">
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/01.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/04.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/05.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/06.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Special_Olympics_World_Games_2019/07.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p class="text-justify">Special Olympics (#specialolympics2019) is the world’s largest humanitarian sporting event which focuses on the empowerment of People of Determination with intellectual disabilities through the power of sport.
+                                                        iSpatialTec, in association with ADSSSA is proud to support this initiative by developing GIS integrated web design using Esri technology showcasing Special Olympics Story Maps, Athlete Information & analytics, Sporting Venues in 3D, Real-time Torch Run & Medals info. We are thankful to Special Olympics World Games 2019 for showcasing iSpatialTec as Official Supporter.</p>
+                                                    <p class="text-right"><i>
+                                                            Take a tour to view the GIS Application: <a href="https://apps.sdi.gov.abudhabi/specialolympics/" target="_blank">https://apps.sdi.gov.abudhabi/specialolympics/</a></i></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item  p-3">
+
+                                                <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Heavy Traffic</h4>
+                                                <div class="image_carousel">
+                                                    <div class="owl-carousel owl-theme" id="news_10">
+                                                        <div class="item"><img src="img/Highlights/News/Heavy_Traffic/01.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Heavy_Traffic/02.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Heavy_Traffic/03.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Heavy_Traffic/04.png" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Heavy_Traffic/05.png" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>iSpatialTec is happy to share that the Company is one of the Winners of the Esri India’s Storytelling with Map Contest 2018 Award for ‘Heavy Traffic Flow vs. Road Accident Hot Spots in the City of Hyderabad, Telangana, India’. The submitted Story Map was recognised under the Category ‘Culture / History / Events’ by Esri India during the 2018 User Conference at Delhi-NCR.</p>
+                                                    <p class="text-right"><i>
+                                                            To browse through the ArcGIS Story Map, please follow the link: <a href=" https://bit.ly/2Opro8L" target="_blank">https://bit.ly/2Opro8L</a></i></p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item  p-3">
+
+                                                <div class="image_carousel">
+                                                    <h4 class="text-center page_title_sub f_darkblue  border-bottom mt-2">Fire Safety Awareness</h4>
+                                                    <div class="owl-carousel owl-theme" id="news_11">
+                                                        <div class="item"><img src="img/Highlights/News/Fire_Safety_Awareness/01.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Fire_Safety_Awareness/02.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Fire_Safety_Awareness/03.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Fire_Safety_Awareness/04.jpg" /></div>
+                                                        <div class="item"><img src="img/Highlights/News/Fire_Safety_Awareness/05.jpg" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Fire Destruction Is One Man’s Job, Fire Prevention Is Everybody’s Job.
+
+
+
+
+                                                    </p>
+                                                    <!--p class="text-right"><small><i>&nbsp;
+                                                           </i></small></p-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--inner-->
+                                    </div><!-- col-sm-6  -->
+                                </div>
+                                <!--row-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---End:Two Column--->
+            </div>
+        </section>
+        <!---End:Over View--->
+        <!---Start:footer --->
+        <!---Start:footer --->
+        <section id="footer" class="scrollsection">
+            <!-- Footer -->
+            <footer class="footer-distributed font-small mdb-color pt-2  ist_relative">
+                <!-- Footer Links -->
+                <div class="container-fluid  text-center text-md-left  ist_relative">
+                    <div class="qu-code">
+                        <img src="img/qr_code.png" class="img-fluid" />
+                    </div>
+                    <!-- Footer links -->
+                    <div class="row text-center text-md-left mt-3 pb-3">
+                        <!-- Grid column -->
+                        <div class="col-12 col-md-3 col-lg-3 col-xl-3 mt-2 m_seprater">
+                            <a href="index.html"><img src="img/ist_logo_footer.png" class="footer_logo img-fluid" /></a>
+                            <div class="text-center text-md-left mt-3">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item mx-2">
+                                        <a class="btn-floating rgba-white-slight mx-1" href="https://www.linkedin.com/company/innovative-spatial-techno-solution-limited" target="_blank"><i class="fa  fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="list-inline-item  mx-2">
+                                        <a href="https://twitter.com/ispatialtec" class="btn-floating  rgba-white-slight mx-1" target="_blank"><i class="fa  fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item  mx-2">
+                                        <a href="https://www.facebook.com/ispatialtec/" target="_blank" class="btn-floating  rgba-white-slight mx-1"><i class="fa  fa-facebook"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-12  col-md-4 col-lg-5  col-xl-4  mt-2 footer_link_sec m_seprater">
+                            <h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
+                            <ul class="list-unstyled list-inline footer_links">
+                                <li class="list-inline-item  mb-1">
+                                    <a href="index.html" class="active" target="_blank">Home</a>
+                                </li>
+                                <li class="list-inline-item  mb-1">
+                                    <a href="product.html" target="_blank">Products</a>
+                                </li>
+                                <li class="list-inline-item  mb-1">
+                                    <a href="event.html" target="_blank">Events</a>
+                                </li>
+                                <li class="list-inline-item mb-1 ">
+                                    <a href="news.html" target="_blank">News</a>
+                                </li>
+                                <li class="list-inline-item mb-1">
+                                    <a href="careers.html" target="_blank">Careers</a>
+                                </li>
+                                <li class="list-inline-item mb-1">
+                                    <a href="contact.html" target="_blank">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class=" col-sm-12 col-md-5   col-lg-4 col-xl-5   mt-2">
+                            <h5 class="text-uppercase mb-4 font-weight-bold">PARTNER</h5>
+                            <p><img src="img/f_micro.png" class=" img-fluid" /></p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Footer links -->
+                    <hr class="m-1 p-1">
+                    <!-- Grid row -->
+                    <div class="row w-100">
+                        <!-- Grid column -->
+                        <!--Copyright-->
+                        <p class="text-center text-center w-100"><small>Copyright 2019 iSpatial Techno Solutions, All Rights Reserved </small></p>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <!-- Footer Links -->
+            </footer>
+            <!-- Footer -->
+        </section>
+        <!--End: Footer Section-->
+        <a id="back-to-top" href="#" class="btn bg_green btn-lg back-to-top " role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-arrow-circle-up f_white"></i></a>
+    </div>
+</body>
+<!---SCRIPT TAG--->
+<!--script src="js/JQUERY3.4.1"></script-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/owl.carousel.js"></script>
+<!---sticky--->
+<script type="text/javascript" src="js/sticky-sidebar.js"></script>
+<script type="text/javascript" src="js/jquery.sticky-sidebar.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        // Gets the video src from the data-src on each button
+        var $videoSrc;
+        $('.video-btn').click(function() {
+            $videoSrc = $(this).data("src");
+        });
+        console.log($videoSrc);
+        // when the modal is opened autoplay it  
+        $('#myModal').on('shown.bs.modal', function(e) {
+            // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        })
+        // stop playing the youtube video when I close the modal
+        $('#myModal').on('hide.bs.modal', function(e) {
+            // a poor man's stop video
+            $("#video").attr('src', $videoSrc);
+        })
+        // document ready  
+    });
+
+</script>
+<script>
+    new WOW().init();
+
+</script>
+<!---INLINE SCRIPT--->
+<!-- SCROLL-JS--->
+<script>
+    new WOW().init();
+
+</script>
+<script>
+    //---NAV---//
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('.ist-nav').addClass('topfixed');
+        } else {
+            $('.ist-nav').removeClass('topfixed');
+        }
+    });
+    //--BEGIN:OWL CAROUSL--//
+    $('#news_01, #news_02,#news_03,#news_04,#news_05,#news_06,#news_07,#news_08,#news_09,#news_10,#news_11').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+    //---SCROLL TOP---//
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('#back-to-top').fadeIn();
+        } else {
+            $('#back-to-top').fadeOut();
+        }
+    });
+    // scroll body to 0px on click
+    $('#back-to-top').click(function() {
+        $('#back-to-top').tooltip('hide');
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+    $('#back-to-top').tooltip('show');
+
+</script>
+<!--script type="text/javascript">
+    $('#sidebar').stickySidebar({
+        topSpacing: 100,
+        bottomSpacing: 70
+    });
+</script-->
+
+</html>

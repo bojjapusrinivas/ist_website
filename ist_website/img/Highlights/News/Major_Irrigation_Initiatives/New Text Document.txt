@@ -1,0 +1,2 @@
+iSpatialTec have created a story map on Major Irrigation Initiatives in the States of Andhra Pradesh & Telangana, India. In this ArcGIS-based Story Map, one can identify the Spatial Locations & Command Areas of the Major Irrigation Initiatives taken up over High-resolution Satellite Imagery (HRSI).
+To browse through the ArcGIS Story Map, please follow the link: https://bit.ly/2AgRiXv

@@ -1,0 +1,115 @@
+
+
+.gallery .gallery_btns {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gallery .gallery_btns button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 0;
+    border: 1px solid transparent;
+}
+
+.gallery .gallery_btns button.active,
+.gallery .gallery_btns button:focus {
+    border: 2px dashed #48cfce;
+    box-shadow: none;
+}
+
+.gallery_item {
+    margin-bottom: 10px;
+}
+
+.gallery_item a {
+    color: #333;
+    text-align: center;
+    display: block;
+    margin: 0 5px 20px 5px;
+}
+
+.gallery_item a img {
+    border: 4px solid #48cfce;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.gallery_item a h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: normal;
+    color: #666;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.gallery_item a:hover img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.gallery_item a:hover h4 {
+    color: #008a89;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.events .modal-content {
+    padding: 10px;
+}
+
+.events .owl-nav {
+    position: absolute;
+    top: calc(50% - 30px);
+    width: 100%;
+}
+.events .modal-dialog {
+    margin: 10px auto !important;
+    top: calc(50vh - 300px);
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next  {
+    position: absolute;
+    line-height: 23px;
+}
+.owl-carousel .owl-nav button.owl-prev.disabled,
+.owl-carousel .owl-nav button.owl-next.disabled{
+    opacity: .3;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span{
+     font-size: 80px;
+     color:#FFF;
+
+}
+.owl-carousel .owl-nav button.owl-prev {
+    left: -50px !important;
+}
+.owl-carousel .owl-nav button.owl-next {
+    right: -50px !important;
+}
+.events button.close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -51px;
+    top: -4px;
+    font-size: 50px;
+    opacity: .8;
+    color: #FFF;
+    line-height: 30px;
+}
+.owl-carousel .owl-nav button.owl-prev:focus,
+.owl-carousel .owl-nav button.owl-next:foucs{
+    outline: none;
+}
+.owl-dots{
+    display: none;
+}

@@ -1,0 +1,225 @@
+/* RESET STYLES */
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ol,
+ul,
+li {
+    list-style: none
+}
+
+caption,
+th {
+    text-align: left
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: ''
+}
+
+strong {
+    font-weight: bold
+}
+
+em {
+    font-style: italic
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto
+}
+
+.alignleft {
+    float: left
+}
+
+.alignright {
+    float: right
+}
+
+div {
+    position: relative
+}
+
+/* END RESET STYLES */
+
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #f5f5f5 url("../../img/bkg-pat.png") repeat scroll 0 0;
+    font: 12px/1.5em Arial, Helvetica, sans-serif, "Arial Narrow";
+    color: #a5a5a5;
+}
+
+a {
+    color: #65a42d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #65a42d;
+    text-decoration: underline;
+}
+
+.column-clear {
+    clear: both;
+}
+
+.wrapper {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1080px;
+}
+
+/*.portfolio-content, .portfolio-area{width:1080px;}*/
+.title-page {
+    font-size: 40px;
+    margin: 50px 0px 60px 0px;
+    color: #151515;
+}
+
+.goto {
+    float: right;
+    width: 130px;
+    margin: -80px 30px 0px 0px;
+}
+
+/**** PORTFOLIO STYLES*****/
+.portfolio-categ {
+    margin-bottom: 30px;
+}
+
+.portfolio-categ li {
+    display: inline;
+}
+
+.image-block {
+    display: block;
+    position: relative;
+}
+
+.image-block img {
+    border: 1px solid #f2f8ff;
+    border-radius: 4px 4px 4px 4px;
+    background: #f2f8ff;
+    padding: 10px;
+}
+
+.image-block img:hover {
+    border: 1px solid #A9CF54;
+    box-shadow: 0 0 5px #A9CF54;
+}
+
+.portfolio-area li {
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.home-portfolio-text {
+    text-align: center;
+
+}
+
+.home-portfolio-text h2 {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+
+
+}
+
+li.active a {
+    text-decoration: underline;
+}
+
+.pp_pic_holder.light_rounded {
+
+    z-index: 300000;
+}
+
+/*.ist_gallery_filter li{
+    font-size:18px;
+    text-align: center;
+    color:var(#1C4670);
+    text-transform:uppercase;
+    padding:10px;
+    margin-top:25px !important;
+}
+
+.ist_gallery_filter li a{
+ color:var(#1C4670) !important;    
+}
+
+.ist_gallery_filter li:hover, .ist_gallery_filter li.active,.ist_gallery_filter li.active a, .ist_gallery_filter li a:hover{
+    background:var(#49CFCE);
+    color:#fff;
+    text-decoration: none;
+    
+}*/
+
+/**** END PORTFOLIO STYLES*****/

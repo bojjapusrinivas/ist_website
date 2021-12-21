@@ -1,0 +1,400 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----IE STYLES----*/
+
+/*=====================
+IST COLORS
+=====================*/
+.f_darkblue {
+    color: #1C4670 !important;
+}
+
+.f_white {
+    color: #fff !important;
+}
+
+/*--- background---*/
+.bg_white {
+    background: #fff !important;
+}
+
+.bg_light_gray {
+    background: #EDEDED !important;
+}
+
+.bg_blue {
+    background: #5c94c6 !important;
+}
+
+.bg_green {
+    background: #49CFCE !important;
+}
+
+.bg_light_orange {
+    background: #E89084 !important;
+}
+
+.bg_light_yellow {
+    background: #c1a843 !important;
+}
+
+.bg_vilo {
+    background: #82919e !important;
+}
+
+/*=====================
+IST PADDING MARGIN
+=====================*/
+.section-py {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-py-mid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-ptop {
+    padding-top: 100px;
+}
+
+.section-pbottom {
+    padding-bottom: 100px;
+}
+
+.section-mtop {
+    margin-top: 100px;
+}
+
+.section-mtop {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 576px) {
+
+
+    /*----- PADDING & MARGIN -----*/
+    .section-py {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    /*----- PADDING & MARGIN -----*/
+    .section-py {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+
+    /*----- PADDING & MARGIN -----*/
+    .section-py {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+/*=====================
+IST BUTTON
+=====================*/
+.ist_line_button {
+    border-radius: 0px;
+    border: #4d4d4d solid 1px;
+    background: transprent !important;
+    color: #1C4670;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ist_line_button:hover {
+    border-radius: 0px;
+    border: #49CFCE solid 1px;
+    /*background:#DBF5F0!important;*/
+    color: #fff
+}
+
+.hvr-sweep-to-right:before {
+    background: #45CDCC !important;
+}
+
+.ist_line_button_white {
+    border-radius: 0px;
+    border: #fff solid 1px !important;
+    background: transprent !important;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ist_line_button_white:hover {
+    border-radius: 0px;
+    border: #fff solid 1px;
+    background: #fff !important;
+    color: #1C4670 !important;
+}
+
+/*=====================
+IST PAGE TITLE
+=====================*/
+.page_title {
+    font-family: Poppins;
+    font-size: 32px;
+    padding: 13px 0px;
+    font-weight: bold !important;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.page_title_sub {
+    font-family: Poppins;
+    font-size: 27px;
+    padding: 13px 0px;
+    font-weight: bold !important;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.large_title {
+    font-family: Poppins;
+    color: #49CFCE;
+    position: absolute;
+    font-size: 70px;
+    opacity: 0.1;
+    font-weight: bold;
+    left: 30px;
+    top: 15px;
+}
+
+
+
+/*===================
+    SNIPTS
+====================*/
+
+#back-to-top {
+    background: #49CFCE #important;
+    color: #fff;
+}
+
+.qu-code {
+
+    border: #1C4670 solid 5px;
+    border-radius: 10px;
+    background: #1C4670;
+}
+
+.ist_line_button_white {
+    border-radius: 0px;
+    border: #fff solid 1px !important;
+    background: transprent !important;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pdf-btn {
+
+    margin-top: -9px !important;
+}
+
+.f_darkblue {
+    color: #1C4670 !important;
+}
+
+.addres_h {
+    height: 350px;
+    font-size: 14px;
+}
+
+.large_title {
+    font-family: Poppins;
+    color: #49CFCE;
+    position: absolute;
+    font-size: 70px;
+    opacity: 0.2;
+    font-weight: bold;
+    left: 30px;
+    top: 15px;
+}
+
+#footer {
+
+    margin-top: 50px;
+}
+
+
+.ist_active,
+.ist-nav-link:hover,
+.social_list li a:hover {
+    color: #fff !important;
+    border-bottom: #49CFCE 2px solid !important;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+.ist_dropdown a:hover {
+    color: #fff !important;
+    background: #1C4670 !important;
+    border-bottom: #49CFCE 2px solid !important;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+/*======================
+
+
+=======================*/
+.industries_list {
+    width: 100%;
+}
+
+.industries_list .row {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    list-style: none;
+    text-align: center;
+}
+
+/* Common style */
+.industries_list .row figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.industries_list .row figure img {
+    position: relative;
+    display: block;
+    opacity: 0.9;
+}
+
+.industries_list .row figure figcaption {
+    padding: 15px;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.industries_list .row figure figcaption::before,
+.industries_list .row figure figcaption::after {
+    pointer-events: none;
+}
+
+.industries_list .row figure figcaption,
+.industries_list .grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.industries_list .row figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.industries_list .row figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+.industries_list .row figure h2 span {
+    font-weight: 800;
+}
+
+.industries_list .row figure h2,
+.industries_list .row figure p {
+    margin: 0;
+}
+
+.industries_list .grid figure p {
+    letter-spacing: 1px;
+}
+
+.industries_list .row figure.effect-ming {
+    background: #030c17;
+}
+
+.industries_list .row figure.effect-ming img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+.industries_list .row figure.effect-ming figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.4, 1.4, 1);
+    transform: scale3d(1.4, 1.4, 1);
+    padding: 10px;
+}
+
+.industries_list .row figure.effect-ming h2 {
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.industries_list .row figure.effect-ming p {
+    padding: 1em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.industries_list .row figure.effect-ming:hover h2 {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    margin: 10% 0 5px 0;
+}
+
+.industries_list .row figure.effect-ming:hover figcaption::before,
+.industries_list .row figure.effect-ming:hover p {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+.industries_list .row figure.effect-ming:hover figcaption {
+    background-color: rgba(58, 52, 42, 0);
+}
+
+.industries_list .row figure.effect-ming:hover img {
+    opacity: 0.4;
+}
